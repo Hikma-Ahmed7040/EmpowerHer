@@ -1,13 +1,15 @@
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.jsx" ;
+import Hero from "./hero/Hero.jsx";
+// import TraditionalClothesPage from "./TraditionalClothes.jsx";
 
 const Home = () => {
   return (
     <div>
       {/* Navbar */}
-      <Navbar />
+      <Hero />
 
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-center text-white"
+      {/* <section className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-center text-white"
         style={{ backgroundImage: "url('/path-to-hero-image.jpg')" }}>
         <div className="bg-black bg-opacity-50 p-6 rounded-lg">
           <h1 className="text-4xl font-bold">Empower Women, Support Handmade Products</h1>
@@ -16,7 +18,7 @@ const Home = () => {
             Shop Now
           </button>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Products */}
       <section className="container mx-auto py-10 px-4">

@@ -1,7 +1,7 @@
 // src/TraditionalClothesPage.jsx
 
 import React, { useState } from 'react';
-import '../TraditionalClothesPage.jsx';
+
 
 const products = [
   {

@@ -1,8 +1,10 @@
+import bgImage from "../../assets/womanik.jpg";
+
 const Hero = () => {
     return (
       <section 
         className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-center text-white"
-        style={{ backgroundImage: "url('/path-to-hero-image.jpg')" }}
+        style={{ backgroundImage: `url(${bgImage})` }}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
