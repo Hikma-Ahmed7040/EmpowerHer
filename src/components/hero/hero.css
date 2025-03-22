@@ -1,0 +1,13 @@
+.hero {
+    background-image: url('your-image.jpg'); /* Adjust this based on your setup */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}

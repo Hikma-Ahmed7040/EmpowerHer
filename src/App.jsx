@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar";
-import TraditionalClothesPage from "./components/TraditionalClothes";
-import Home from "./components/Home";
+import Navbar from "./components/Navbar/Navbar";
+import TraditionalClothesPage from "./components/traditional_clothes/TraditionalClothes.jsx";
+import Home from "./components/home/Home";
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       {/* <TraditionalClothesPage/> */}
       <Home />
       {/* Other content */}
+      <TraditionalClothesPage />
     </div>
   );
 }
