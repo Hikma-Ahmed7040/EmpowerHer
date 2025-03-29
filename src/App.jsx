@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <TraditionalClothesPage/> */}
+      <TraditionalClothesPage/>
       <Home />
       {/* Other content */}
       <TraditionalClothesPage />
