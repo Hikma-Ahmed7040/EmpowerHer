@@ -1,19 +1,15 @@
 import Navbar from "./components/Navbar";
-import { banner } from "./components/banners/banners";
+import Banners from "./components/banners/banners"; // Corrected import
 // import TraditionalClothesPage from "./components/TraditionalClothes/traditionalClothes";
 import Home from "./components/Home";
-
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
-      <banner />
-      
-
+      <Banners /> 
       {/* <TraditionalClothesPage/> */}
-     
     </div>
   );
 }

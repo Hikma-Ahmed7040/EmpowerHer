@@ -5,7 +5,6 @@ import Hero from "./hero/Hero.jsx";
 const Home = () => {
   return (
     <div>
-      {/* Navbar */}
       <Hero />
   
 
@@ -21,44 +20,12 @@ const Home = () => {
         </div>
       </section> */}
 
-      {/* Featured Products
-      <section className="container mx-auto py-10 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#8B5E3C]">Featured Products</h2>
-        <div className="grid md:grid-cols-3 gap-6 mt-8">
-         
-          <div className="bg-white p-4 rounded-lg shadow-lg">
-            <img src="/path-to-product1.jpg" alt="Product 1" className="w-full h-48 object-cover rounded-md"/>
-            <h3 className="mt-3 text-xl font-semibold">Handmade Necklace</h3>
-            <p className="text-gray-600 mt-1">$25.00</p>
-            <button className="mt-3 w-full bg-yellow-400 text-black font-semibold py-2 rounded-md hover:bg-yellow-500">
-              Add to Cart
-            </button>
-          </div>
-
-          <div className="bg-white p-4 rounded-lg shadow-lg">
-            <img src="/path-to-product2.jpg" alt="Product 2" className="w-full h-48 object-cover rounded-md"/>
-            <h3 className="mt-3 text-xl font-semibold">Traditional Dress</h3>
-            <p className="text-gray-600 mt-1">$40.00</p>
-            <button className="mt-3 w-full bg-yellow-400 text-black font-semibold py-2 rounded-md hover:bg-yellow-500">
-              Add to Cart
-            </button>
-          </div>
-
-          <div className="bg-white p-4 rounded-lg shadow-lg">
-            <img src="/path-to-product3.jpg" alt="Product 3" className="w-full h-48 object-cover rounded-md"/>
-            <h3 className="mt-3 text-xl font-semibold">Handwoven Basket</h3>
-            <p className="text-gray-600 mt-1">$30.00</p>
-            <button className="mt-3 w-full bg-yellow-400 text-black font-semibold py-2 rounded-md hover:bg-yellow-500">
-              Add to Cart
-            </button>
-          </div>
-        </div>
-      </section> */}
+     
 
       {/* Footer */}
-      <footer className="bg-[#8B5E3C] text-white py-6 mt-10 text-center">
+      {/* <footer className="bg-[#8B5E3C] text-white py-6 mt-10 text-center">
         <p className="text-lg">&copy; 2025 EmpowerHer. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };

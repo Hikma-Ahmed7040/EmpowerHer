@@ -5,7 +5,7 @@ import BannerCard from "./bannerCard"; // Import with proper capitalization
 
 function Banner() { // Rename function to start with uppercase
   return (
-    <div className={classes.categoryContainer}>
+    <div className={classes.bannerContainer}>
       {bannerData.map((info) => (
         <BannerCard key={info.name} data={info} />
       ))}
