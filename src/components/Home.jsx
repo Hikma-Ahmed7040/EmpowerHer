@@ -7,6 +7,7 @@ const Home = () => {
     <div>
       {/* Navbar */}
       <Hero />
+  
 
       {/* Hero Section */}
       {/* <section className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-center text-white"
@@ -20,11 +21,11 @@ const Home = () => {
         </div>
       </section> */}
 
-      {/* Featured Products */}
+      {/* Featured Products
       <section className="container mx-auto py-10 px-4">
         <h2 className="text-3xl font-bold text-center text-[#8B5E3C]">Featured Products</h2>
         <div className="grid md:grid-cols-3 gap-6 mt-8">
-          {/* Product Card */}
+         
           <div className="bg-white p-4 rounded-lg shadow-lg">
             <img src="/path-to-product1.jpg" alt="Product 1" className="w-full h-48 object-cover rounded-md"/>
             <h3 className="mt-3 text-xl font-semibold">Handmade Necklace</h3>
@@ -52,7 +53,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-[#8B5E3C] text-white py-6 mt-10 text-center">

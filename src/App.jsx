@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
-import TraditionalClothesPage from "./components/TraditionalClothes";
+import { banner } from "./components/banners/banners";
+// import TraditionalClothesPage from "./components/TraditionalClothes/traditionalClothes";
 import Home from "./components/Home";
 
 
@@ -7,9 +8,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <TraditionalClothesPage/> */}
       <Home />
-      {/* Other content */}
+      <banner />
+      
+
+      {/* <TraditionalClothesPage/> */}
+     
     </div>
   );
 }
