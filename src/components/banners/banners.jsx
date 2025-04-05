@@ -1,13 +1,15 @@
 import React from "react";
-import { bannerData } from "./bannerData"; // Ensure the file name matches
+import { bannerData } from "./bannerData";
 import classes from "./banner.module.css";
-import BannerCard from "./bannerCard"; // Import with proper capitalization
+import BannerCard from "./BannerCard";
 
-function Banner() { // Rename function to start with uppercase
+function Banner() {
   return (
     <div className={classes.bannerContainer}>
       {bannerData.map((info) => (
-        <BannerCard key={info.name} data={info} />
+        <div key={info.name} className={classes.bannerItem}>
+          <BannerCard data={info} />
+        </div>
       ))}
     </div>
   );
