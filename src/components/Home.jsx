@@ -1,4 +1,4 @@
-import Navbar from "./Navbar.jsx" ;
+import Header from './Header/Header.jsx'
 import Hero from "./hero/Hero.jsx";
 // import TraditionalClothesPage from "./TraditionalClothes.jsx";
 
@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-  
+      
 
       {/* Hero Section */}
       {/* <section className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-center text-white"

@@ -1,0 +1,124 @@
+/* Header.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /* Imported custom font for the logo */
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5a3921; /* Updated background color */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap; /* Ensure everything is in one row */
+}
+
+.logo__container h1 {
+    color: #FFD700; /* Bright golden color for the logo */
+    font-size: 40px; /* Larger font size for logo */
+    font-family: 'Lobster', cursive; /* Custom logo font */
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav__items {
+    display: flex;
+    gap: 30px; /* Increased gap between items */
+    list-style: none;
+    align-items: center; /* Align nav items in a row */
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px; /* Increased font size */
+    color: white; /* Keep text white */
+    cursor: pointer;
+    transition: color 0.2s ease;
+    margin: 0 15px; /* Added margin for spacing */
+}
+
+.nav__link:hover {
+    color: #FFEB3B; /* Yellowish hover color */
+}
+
+.nav__icon {
+    font-size: 24px; /* Increased icon size */
+    margin-bottom: 4px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #f9f9f9;
+    margin-left: 20px; /* Space between search and cart */
+}
+
+.search select,
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.search input {
+    width: 150px;
+}
+
+/* Auth & Cart */
+.order__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order__container a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; /* Adjusted for consistency */
+}
+
+.order__container p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.order__container span {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart span {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #FFEB3B; /* Yellowish background for cart counter */
+    color: black; /* Black text for better contrast */
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
